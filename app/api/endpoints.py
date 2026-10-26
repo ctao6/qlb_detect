@@ -20,7 +20,7 @@ async def predict(file: UploadFile = File(...)):
         if prediction >= 0.5:
             label, confidence = "Infested", float(prediction*100)
         else:
-            label, confidence = "Healthy", float(1-prediction*100)
+            label, confidence = "Healthy", float((1-prediction)*100)
 
         return {"status": "success", "label":label, "confidence":confidence}
 
