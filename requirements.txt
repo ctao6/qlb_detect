@@ -1,5 +1,5 @@
 fastapi==0.110.0
 uvicorn==0.28.0
-tensorflow-cpu==2.15.0  # Use tensorflow-cpu to save RAM/storage space on servers
+tensorflow-cpu>=2.16.0
 pillow==10.2.0
-python-multipart==0.0.9 # Required for parsing image uploads
+python-multipart==0.0.9
