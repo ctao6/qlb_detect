@@ -1,5 +1,8 @@
-fastapi==0.110.0
-uvicorn==0.28.0
-tensorflow-cpu>=2.16.0
-Pillow>=10.2.0
-python-multipart==0.0.9
+fastapi
+uvicorn
+python-multipart
+Pillow
+numpy
+torch --index-url https://download.pytorch.org/rls/cpu
+transformers
+tensorflow
